@@ -3,18 +3,16 @@ title: Privacy Policy
 seo:
   title: Privacy Policy
 permalink: /privacy/index.html
-description: I respect the EU General Data Protection Regulation (GDPR). This policy document explains how I collect and handle any information you provide to me.
+description: We respect the EU General Data Protection Regulation (GDPR). This policy document explains how we collect and handle any information you provide to us.
 layout: page
 ---
 
-Edit your details in `_data/meta.js`
-
-I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
+We respect the EU General Data Protection Regulation (GDPR) and this policy document explains how we collect and handle any information you provide to us.
 
 **What background data is collected?**
 This site does not use any third party tracking scripts.
 
-**How do I use the data you provide?**
+**How do we use the data you provide?**
 This website does not collect any data.
 
 **How secure is your data?**
@@ -26,14 +24,13 @@ This website transmits itself using HTTPS, encrypting all data between the brows
 **Data controller**
 {{ meta.address.firma }}
 {{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }}
-Tel: <a href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a>
+{{ meta.address.city }}
 Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-If you have any questions or doubts, please contact me: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+If you have any questions or doubts, please contact us: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 **Changes to the policy**
-If I change the content of this policy, those changes will be effective at the time I post them here.
+If we change the content of this policy, those changes will be effective at the time we post them here.
 
 **Complaints**
-If you have any reason to complain about the way I handle your privacy, please contact me by email: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
+If you have any reason to complain about the way we handle your privacy, please contact us by email: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.

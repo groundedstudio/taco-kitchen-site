@@ -5,15 +5,23 @@ module.exports = {
       url: '/about/'
     },
     {
+      text: 'Our food',
+      url: '/#example-menu'
+    },
+    {
+      text: 'Upcoming events',
+      url: '/upcoming-events'
+    },
+    {
+      text: 'Contact',
+      url: '/contact/'
+    },
+    {
       text: 'Blog',
       url: '/blog/'
-    }
+    },
   ],
   bottom: [
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
     {
       text: 'Privacy',
       url: '/privacy/'

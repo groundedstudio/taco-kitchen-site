@@ -96,7 +96,7 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
+article [href^='http']:not([href*='taco-kitchen.com'])::after {
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -119,4 +119,12 @@ article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
 
 .preload-transitions * {
   transition: none !important;
+}
+
+#main {
+  min-height: 100vh;
+}
+
+figcaption {
+  font-size: var(--size-step-0);
 }

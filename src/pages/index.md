@@ -1,17 +1,23 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
-description: 'Key principles using modern CSS, fluid type, fluid space, flexible layout and progressive enhancement will help you to build better front-ends that work for everyone.'
+title: 'Plant-first Tacos for everyone!'
+description: 'Taco Kitchen, plant-first Tacos for everyone'
 layout: 'home'
 blog:
   title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  intro: "Check out some of our latest posts."
 ---
 
-## An Eleventy starter
+{% imagePlaceholder "./src/assets/images/tacotable.jpeg", "A table covered in food from Taco Kitchen", "Tacos and sides at a recent pop-up" %}
 
-This (opiniated) [Eleventy](https://www.11ty.dev/) starter is based on [Andy Bell's](https://twitter.com/piccalilli_) talk 'Be the browser’s mentor, not its micromanager' and it's companion website buildexcellentwebsit.es.
+Mission statement and information about the food and our product goes here _(product USP)_...
 
-In his words, it's about hinting the browser rather than micromanaging it, using progressive enhancement, CSS layout, fluid type & spacing, as well as modern CSS features.
+## About us
 
-This way we can shape frontends that look good to everyone, regardless of device, connection speed or context.
+A shorter paragraph here giving an introduction to who we are as a business _(business USP)_, or you can [learn more about us](/about).
+
+## Example menu
+
+Our menu changes regularly depending on the event, take a look at one of our most recent ones for a flavour of what we do...
+
+{% imagePlaceholder "./src/assets/images/example-menu.svg", "A Taco Kitchen menu", "From a recent pop-up" %}

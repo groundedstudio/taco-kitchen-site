@@ -12,7 +12,7 @@
 @media (min-width: 48em) {
   nav.navbar {
     --nav-button-display: none;
-    --nav-position: static;
+    --nav-position: fixed;
   }
 
   nav.navbar ul {
@@ -35,7 +35,7 @@
 }
 
 nav.navbar {
-  position: var(--nav-position, absolute);
+  position: var(--nav-position, fixed);
   /* inset-block-start: 0.5rem; */
   inset-inline-end: 0.1rem;
 }
